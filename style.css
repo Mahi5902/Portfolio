@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: rgb(213, 30, 30);
+  width: 15vw;
+
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+}
+
+sidebar nav {
+  padding: 72px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  padding: 12px;
+  font-size: 20px;
+}
+.sidebar nav li a{
+text-decoration:none;
+color: black;
+}
+
+.main {
+  /* background-color: rgb(92, 205, 124); */
+  width: 85vw;
+}
+
+.container {
+  display: flex;
+}
+
+.infocontainer {
+  /* background-color: yellow; */
+  width: 80vw;
+  height: 300px;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+   font-family: 'Source Code Pro', monospace;
+  
+
+}
+
+.Hello {
+  font-size: 70px;
+
+}
+
+.name {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about {
+  font-size: 45px;
+}
+.moreabout{
+font-size: 20px;
+margin-top: 10px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+padding: 5px;
+border-radius: 20px;
+color: white;
+background-color: rgb(9, 164, 225);
+font-weight: bold;
+font-size: 15px;
+margin: 0.3px;
+cursor: pointer;
+}
+.btn-sm{
+  padding: 8px;
+  border-radius: 20px;
+  font-size: 15px ;
+}
+.btn:hover{
+background-color: white;
+color: rgb(9, 164, 225);
+}
+.devpic img {
+  height: 300px;
+}
+.contactform{
+padding: 0 15px;
+padding-top: 50px;
+font-family: 'Open Sans', sans-serif;
+
+}
+.contactform h1{
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+padding: 5px;
+}
+.contactform form div{
+padding: 2px 0;
+margin: 10px;
+display: flex;
+flex-direction: column;
+
+}
+.contactform form div input{
+  width:40vh;
+  border-radius: 10px;
+  margin:5px 0;
+padding: 5px;
+}
+#emailHelp{
+font-size: 10px;
+/* color: aqua; */
+margin: 0 5px;
+}
+#form-check{
+ flex-direction: row; 
+}
+#form-check input{
+width: 20px;
+ margin:3px 0; 
+}
